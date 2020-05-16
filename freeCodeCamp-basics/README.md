@@ -4,18 +4,19 @@ I'll be storing the more commonly used Git commands here as a quick reference gu
 
 I know, I know, this information is out there everywhere, I'm just using my Readme spot to store my shortcuts and reminders.
 
-git clone https://github.....
-git remote -v
-git pull origin master
-git status
-git checkout -b [branch name]
-git add . OR git add [filename]
-git commit -m "[message for the commit]"
-git push origin [name of branch]
-git branch -d [local branch name]
-git fetch --prune
-git branch
-git branch -r
+Common git commands:
+- git clone https://github.....
+- git remote -v
+- git pull origin master
+- git status
+- git checkout -b [branch name]
+- git add . OR git add [filename]
+- git commit -m "[message for the commit]"
+- git push origin [name of branch]
+- git branch -d [local branch name]
+- git fetch --prune
+- git branch
+- git branch -r
 
 General steps: 
 - clone remote repo from base directory on local drive
