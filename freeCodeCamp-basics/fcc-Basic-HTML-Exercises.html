@@ -19,13 +19,24 @@
     </ol>
 
     <form action="/submit-cat-photo">
-        <input type="text" placeholder="Cat photo URL" required>
-        <button type="submit">Submit</button>
         <label for ="indoor">
             <input id="indoor" type="radio" name="indoor-outdoor">Indoor
         </label>
         <label for ="outdoor">
-            <input id="outdoor" type="radio" name="indoor-outdoor">outdoor
+            <input id="outdoor" type="radio" name="indoor-outdoor">Outdoor
+        </label>
+        <br>
+        <input type="text" placeholder="Cat photo URL" required>
+        <button type="submit">Submit</button>
+        <br>
+        <label for="curious">
+            <input id="curious" type="checkbox" name="personality">curious
+        </label>
+        <label for="playful">
+            <input id="playful" type="checkbox" name="personality">playful
+        </label>
+        <label for="loving">
+            <input id="loving" type="checkbox" name="personality">loving
         </label>
     </form>
 
