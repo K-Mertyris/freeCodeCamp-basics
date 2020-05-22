@@ -1,5 +1,23 @@
 # freeCodeCamp-basics
 
+Completed projects:
+- HTML & HTML 5 basics (Started on 2020.05.13; Completed on 2020.05.19)
+
+Projects in progress:
+- CSS basics (Started on 2020.05.21)
+
+Projects in the backlog:
+- Applied Visual Design
+- Applied Accessibility
+- Responsive Web Design Principles
+- CSS Flexbox
+- CSS Grid
+- Responsive Web Design Projects
+
+Each project will have a file associated with it and I will only update the file that's associated with the project that I'm working on. The full list of projects that I'll be working through are listed above as well as the projects that are completed and the projects in progress.
+
+After completing all of the starter curricula (Responsive Web Design Certification), I may move on to Python or continue with front end coding, I'm not entirely sure yet. Either way, I'll likely be adding to this repo using the exercises from whatever courses I end up taking.
+
 I'll be storing the more commonly used Git commands here as a quick reference guide. Commands and the order I typically use them will be at the top, with more detailed explanations of what they're used for at the bottom.
 
 I know, I know, this information is out there everywhere, I'm just using my Readme spot to store my shortcuts and reminders.
