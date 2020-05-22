@@ -35,6 +35,7 @@ Common git commands:
 - git fetch --prune
 - git branch
 - git branch -r
+- git remote prune origin
 
 General steps: 
 - clone remote repo from base directory on local drive
@@ -48,3 +49,7 @@ General steps:
 - delete local branch (if done and pull request is approved or rejected, all work on branch is complete, & remote branch is deleted)
 - prune outdated branches so they don't show up when git branch -r -a is called
 - check local and remote branches for cleanliness
+
+Running into some issues removing stale branches. Needed to use remote prune origin instead of fetch --prune. Not sure why fetch --prune isn't working, but I have a sneaking suspicion it's because I added another URL to "origin". Now when I push from the console (git push origin <'name of branch'>), the code changes get pushed to my Azure DevOps repo as well as the GitHub repo.
+
+Here's a link to the site I used to set up the config file: https://stackoverflow.com/questions/849308/pull-push-from-multiple-remote-locations/12795747#12795747
